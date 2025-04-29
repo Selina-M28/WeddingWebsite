@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./server/index.js",
+    "start": "node ./server/index.js",
+    "seed": "node ./server/seed.js",
+    "seed:dev": "nodemon ./server/seed.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +17,8 @@
     "nodemon": "^3.1.10"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "pg": "^8.15.6"
   }
 }

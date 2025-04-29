@@ -1,5 +1,9 @@
+require("dotenv").config;
+const { client,createTables } = require('./db');
 const express = require ('express');
-const { client } = require('./db');
+
+const app = express();
+
 
 const init = async()=> {
     console.log('connecting to database');
