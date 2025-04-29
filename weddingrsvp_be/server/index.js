@@ -1,0 +1,11 @@
+const express = require ('express');
+const { client } = require('./db');
+
+const init = async()=> {
+    console.log('connecting to database');
+    await client.connect();
+    console.log('connected to database');
+    await createTables();
+    console.log('created tables');
+};
+init();
