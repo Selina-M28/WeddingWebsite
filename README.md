@@ -1,4 +1,4 @@
-<b>GuestMate</b> is a WIP full-stack wedding guest management application designed to simplify event planning.
+<b>Promise & Paper</b> is a WIP full-stack wedding guest management application designed to simplify event planning.
 It allows couples to easily manage their wedding guest list through adding guests, tracking RSVP statuses, managing meal preferences, and organizing important notes all in one centralized place.
 
 Built with a modern tech stack (React, Node.js, Express, PostgreSQL), this project showcases the ability to design, build, and deploy real-world applications that are both functional and user-friendly.
@@ -20,8 +20,6 @@ Frontend: React, TailwindCSS
 Backend: Node.js, Express
 
 Database: PostgreSQL
-
-Deployment: Vercel (Frontend), Render (Backend)
 
 
 🎯 Project Goals
